@@ -9,7 +9,7 @@ npm install nodejs-payu-sdk --save
 ```
 Use the built-in methods:
 ```javascript
-var Payu = require('payu');
+var Payu = require('nodejs-payu-sdk');
 var payu = new Payu(clientId, clientSecret, posId, key, environment);
 payu.createOrder({ ... })
     .then((res) => { })
